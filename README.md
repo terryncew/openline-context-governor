@@ -126,12 +126,7 @@ OpenLine receipts prove what crossed the boundary.
 
 The current public OpenLine stack centers portable cryptographic AI agent receipts, OpenTelemetry governance, compliance, and cross-vendor verification. This repo is the context-handoff version of that same idea: compress only when the boundary conditions survive.
 
-## Public line
-
-The model should not pretend a summary preserved the task.
-
-It should leave a receipt, run a witness check, and pull back when compression lost the point.
 
 ## License
 
-Apache-2.0
+MIT
