@@ -1,0 +1,20 @@
+name: ci
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  benchmark:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Compile
+        run: |
+          python -m py_compile context_governor.py adaptive_digest_benchmark.py
+      - name: Run benchmark
+        run: |
+          python adaptive_digest_benchmark.py
